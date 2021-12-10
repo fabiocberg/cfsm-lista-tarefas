@@ -1,0 +1,17 @@
+.header {
+  background-color: #55b659;
+  color: #fff;
+  padding: 8px 18px;
+  display: flex;
+  align-items: center;
+}
+
+.header > img {
+  width: 48px;
+  height: 48px;
+}
+
+.header > span {
+  font-size: 22px;
+  margin-left: 18px;
+}

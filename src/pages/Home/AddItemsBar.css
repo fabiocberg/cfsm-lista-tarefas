@@ -1,0 +1,35 @@
+.content-items {
+  background-color: #fff;
+  width: 837px;
+}
+
+.add-item-bar {
+  padding: 13px 20px;
+  display: flex;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.add-item-bar > input {
+  background-color: #eee;
+  border: 1px solid #939393;
+  border-radius: 8px;
+  height: 36px;
+  padding: 0 16px;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.add-item-bar > button {
+  background-color: #55b659;
+  height: 38px;
+  border-radius: 8px;
+  border: 0;
+  color: white;
+  padding: 0 26px;
+  font-size: 18px;
+}
+
+.add-item-bar > button:hover {
+  background-color: #449647;
+  cursor: pointer;
+}

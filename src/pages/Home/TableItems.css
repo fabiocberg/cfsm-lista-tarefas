@@ -1,0 +1,49 @@
+.content-table {
+  background-color: #fff;
+  width: 837px;
+  margin-top: 16px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content-table-items {
+  display: flex;
+  padding: 13px 20px;
+}
+
+.content-table-items > table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.table-headers {
+  border-bottom: 1px solid #000;
+}
+
+.content-table-items > table > thead > tr > th {
+  text-align: left;
+  padding: 8px;
+  font-size: 18px;
+}
+
+.content-table-items > table > tbody > tr:nth-child(even) td {
+  background-color: #f1f1f1;
+}
+
+.content-table-items > table > tbody > tr > td {
+  padding: 8px;
+  font-size: 16px;
+  vertical-align: top;
+}
+
+.content-table-items > table > tbody > tr.task-completed {
+  color: #a8a8a8;
+}
+
+.content-table-items > table > thead > tr > th.checkbox {
+  width: 16px;
+}
+
+.content-table-items > table > thead > tr > th.description {
+  width: 50%;
+}
